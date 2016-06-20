@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ptr.iml" filepath="$PROJECT_DIR$/Ptr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawdemo/drawdemo.iml" filepath="$PROJECT_DIR$/drawdemo/drawdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" filepath="$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptr-lib/ptr-lib.iml" filepath="$PROJECT_DIR$/ptr-lib/ptr-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewlianxi/recyclerviewlianxi.iml" filepath="$PROJECT_DIR$/recyclerviewlianxi/recyclerviewlianxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/改变系统状态栏/改变系统状态栏.iml" filepath="$PROJECT_DIR$/改变系统状态栏/改变系统状态栏.iml" />
+    </modules>
+  </component>
+</project>

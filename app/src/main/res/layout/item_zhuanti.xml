@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_zhuanti"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/app" />
+
+        <TextView
+            android:id="@+id/title_zhuanti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/image_zhuanti"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="this is a title"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/title_zhuanti"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/zhuanti"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="专题"
+            android:textColor="@color/colorPrimary"></TextView>
+        <!--<ImageView
+            android:paddingBottom="8dp"
+            android:layout_alignRight="@id/title_zhuanti"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@id/title_zhuanti"
+            android:src="@drawable/work_icon_new_redspot"
+            android:layout_width="40dp"
+            android:layout_height="30dp" />-->
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
